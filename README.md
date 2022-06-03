@@ -5,7 +5,9 @@
 
 # Set up for development
 1. Install & activate venv (python3 -m venv venv --upgrade-deps)
-2. ./venv/bin/django-admin startproject portfolio .
+2. Generate project : ./venv/bin/django-admin startproject portfolio .  
+3. Generate application : python3 manage.py startapp projects
+1. 
 
 # Run server
 python3 manage.py runserver  
