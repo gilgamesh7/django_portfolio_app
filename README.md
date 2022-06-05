@@ -19,7 +19,11 @@
 4. p1.save()
 5. results = Project.objects.all()
 6. p=results[0].title
+7. To get a record : Project.objects.get(id=2) OR Project.objects.get(pk=2) 
+
 
 # Run server
 python3 manage.py runserver  
 
+# For admin
+- Create super user : python3 manage.py createsuperuser
